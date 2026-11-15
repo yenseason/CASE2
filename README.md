@@ -1,52 +1,104 @@
-# 🎓 Dashboard Analisis Profil Mahasiswa
+# Dashboard Analisis Profil Mahasiswa — CASE2
 
-## Deskripsi Project
+## Identitas Mahasiswa
 
-Dashboard Analisis Profil Mahasiswa merupakan project visualisasi data yang dibuat untuk memenuhi tugas **Visualisasi Data – Case 2**.
+| Keterangan | Informasi |
+|---|---|
+| Nama | Neysalva Calista Firlin |
+| NPM | 241051005 |
+| Mata Kuliah | Visualisasi Data |
+| Program Studi | Sistem Informasi |
 
-Project ini bertujuan untuk mengolah, menganalisis, dan menyajikan data akademik mahasiswa dalam bentuk visualisasi interaktif menggunakan Python dan Streamlit. Dashboard ini membantu pengguna memahami distribusi mahasiswa berdasarkan jurusan, semester, usia, serta pencapaian Indeks Prestasi Kumulatif (IPK).
+## 1. Deskripsi Proyek
 
-Data yang digunakan merupakan data sintetis sebanyak 1.000 mahasiswa yang dibuat menggunakan Python.
+CASE2 merupakan proyek visualisasi data yang berfokus pada analisis profil mahasiswa menggunakan Python. Proyek ini dikembangkan dengan memanfaatkan Streamlit sebagai framework untuk membangun dashboard interaktif yang menyajikan informasi mengenai karakteristik mahasiswa berdasarkan data yang tersedia.
 
-## Tujuan Project
+Dashboard ini bertujuan untuk membantu pengguna memahami gambaran profil mahasiswa melalui penyajian data dalam bentuk ringkasan statistik, tabel, dan visualisasi grafis yang lebih informatif.
 
-1. Mengolah dan mengeksplorasi data profil mahasiswa.
-2. Menampilkan informasi akademik mahasiswa dalam bentuk visualisasi.
-3. Menganalisis distribusi mahasiswa berdasarkan jurusan dan semester.
-4. Menampilkan gambaran pencapaian akademik berdasarkan IPK.
-5. Menyediakan dashboard interaktif untuk membantu memahami karakteristik data mahasiswa.
+## 2. Latar Belakang
 
-## Fitur Dashboard
+Data mahasiswa memiliki berbagai informasi yang dapat digunakan untuk memahami karakteristik dan kondisi akademik mahasiswa. Namun, data yang hanya disajikan dalam bentuk tabel akan membutuhkan waktu lebih lama untuk dipahami, terutama ketika jumlah data cukup banyak.
 
-Dashboard ini memiliki beberapa fitur utama:
+Oleh karena itu, diperlukan visualisasi data untuk menyajikan informasi secara lebih menarik, terstruktur, dan mudah dipahami.
 
-- **Informasi Statistik (KPI):** Menampilkan total mahasiswa, rata-rata IPK, IPK tertinggi, rata-rata usia, dan jumlah mahasiswa dengan IPK di atas 3,50.
-- **Distribusi Mahasiswa per Semester:** Menampilkan jumlah mahasiswa berdasarkan semester.
-- **Jumlah Mahasiswa per Jurusan:** Menampilkan distribusi mahasiswa pada setiap jurusan.
-- **Proporsi Prestasi IPK:** Menampilkan kategori pencapaian IPK mahasiswa.
-- **Hubungan Semester dan IPK:** Menampilkan hubungan antara semester dengan nilai IPK menggunakan Scatter Plot.
-- **Distribusi IPK:** Menampilkan persebaran nilai IPK mahasiswa menggunakan Histogram.
-- **Sebaran Usia Mahasiswa:** Menampilkan distribusi usia dan outlier berdasarkan jurusan menggunakan Box Plot.
-- **Ringkasan Performa Akademik:** Menampilkan tabel statistik akademik untuk setiap jurusan.
-- **Data Mahasiswa:** Menampilkan keseluruhan data mahasiswa melalui tabel interaktif.
-- **Filter Interaktif:** Memungkinkan pengguna menyaring data berdasarkan jurusan, rentang semester, dan kategori IPK.
+Melalui proyek CASE2, data profil mahasiswa diolah dan ditampilkan dalam dashboard interaktif sehingga pengguna dapat melihat distribusi mahasiswa berdasarkan jurusan, semester, usia, serta informasi mengenai Indeks Prestasi Kumulatif (IPK).
 
-## Teknologi yang Digunakan
+## 3. Tujuan Proyek
+
+- Melakukan pengolahan dan analisis terhadap dataset profil mahasiswa.
+- Menyajikan informasi karakteristik mahasiswa melalui visualisasi data.
+- Mengetahui distribusi mahasiswa berdasarkan jurusan dan semester.
+- Menampilkan gambaran informasi akademik mahasiswa berdasarkan nilai IPK.
+- Mengidentifikasi pola dan karakteristik mahasiswa berdasarkan data yang tersedia.
+- Mengembangkan dashboard interaktif sebagai media penyajian hasil analisis data.
+
+## 4. Visualisasi yang Digunakan
+
+Visualisasi dalam dashboard CASE2 digunakan untuk membantu pengguna memahami karakteristik mahasiswa melalui beberapa bentuk penyajian data, antara lain:
+
+1. **Distribusi Mahasiswa Berdasarkan Jurusan**  
+   Menampilkan persebaran jumlah mahasiswa pada masing-masing jurusan.
+
+2. **Distribusi Mahasiswa Berdasarkan Semester**  
+   Menampilkan jumlah mahasiswa berdasarkan semester yang sedang ditempuh.
+
+3. **Visualisasi IPK Mahasiswa**  
+   Menyajikan gambaran nilai IPK mahasiswa untuk membantu memahami kondisi akademik berdasarkan dataset.
+
+4. **Distribusi Usia Mahasiswa**  
+   Menampilkan persebaran usia mahasiswa berdasarkan data yang tersedia.
+
+5. **Ringkasan Statistik Mahasiswa**  
+   Menampilkan informasi umum mengenai jumlah mahasiswa dan karakteristik data yang dianalisis.
+
+## 5. Fitur Dashboard
+
+Dashboard CASE2 memiliki beberapa fitur utama, yaitu:
+
+- **Ringkasan Data Mahasiswa:** Menampilkan informasi umum mengenai dataset mahasiswa.
+- **Analisis Jurusan:** Menampilkan distribusi mahasiswa berdasarkan jurusan.
+- **Analisis Semester:** Menampilkan persebaran mahasiswa berdasarkan semester.
+- **Analisis IPK:** Menyajikan informasi mengenai nilai akademik mahasiswa.
+- **Analisis Usia:** Menampilkan distribusi usia mahasiswa.
+- **Visualisasi Interaktif:** Menyajikan informasi melalui grafik yang dapat membantu pengguna memahami data.
+- **Tabel Data Mahasiswa:** Menampilkan data mahasiswa sebagai informasi pendukung analisis.
+
+## 6. Hasil Analisis Awal
+
+Berdasarkan dataset profil mahasiswa yang digunakan, terdapat sebanyak **1.000 data mahasiswa** dengan beberapa atribut utama, yaitu jurusan, semester, IPK, dan usia.
+
+Dari data tersebut, analisis awal dapat dilakukan untuk memperoleh gambaran mengenai:
+
+- Persebaran jumlah mahasiswa berdasarkan jurusan.
+- Komposisi mahasiswa berdasarkan semester.
+- Gambaran nilai IPK mahasiswa.
+- Distribusi usia mahasiswa.
+
+Hasil visualisasi membantu menyajikan karakteristik mahasiswa secara lebih terstruktur sehingga informasi dalam dataset dapat dipahami dengan lebih mudah.
+
+## 7. Teknologi yang Digunakan
 
 | Teknologi | Kegunaan |
 |---|---|
-| Python | Bahasa pemrograman |
-| JupyterLab | Pengolahan dan pembuatan dataset |
-| Pandas | Pengolahan data |
-| NumPy | Pembuatan data sintetis |
-| Streamlit | Pembuatan dashboard interaktif |
-| Plotly | Visualisasi data |
-| Git & GitHub | Pengelolaan dan penyimpanan project |
+| Python | Bahasa pemrograman untuk pengolahan data dan pengembangan aplikasi |
+| Jupyter Notebook | Lingkungan untuk melakukan analisis data |
+| Pandas | Mengolah dan memanipulasi dataset |
+| NumPy | Mendukung operasi pengolahan data numerik |
+| Streamlit | Membangun dashboard interaktif |
+| Plotly | Membuat visualisasi data interaktif |
+| Git | Mengelola versi proyek |
+| GitHub | Menyimpan dan membagikan source code proyek |
 
-## Struktur Project
+## 8. Live Dashboard
+
+Dashboard CASE2 dikembangkan menggunakan Streamlit Community Cloud agar dapat diakses secara online.
+
+**Link Dashboard:** https://profil-mahasiswa-yenseason.streamlit.app/
+
+## 9. Struktur Folder
 
 ```text
-CASE2/
+CASE2-Analisis-Mahasiswa/
 │
 ├── analisis_data.ipynb
 ├── app.py
@@ -55,61 +107,51 @@ CASE2/
 └── README.md
 ```
 
-## Dataset
+Keterangan:
+- `analisis_data.ipynb` : File notebook untuk proses analisis dan pengolahan data mahasiswa.
+- `app.py` : File utama untuk menjalankan aplikasi dashboard Streamlit.
+- `dataset_mahasiswa.csv` : Dataset yang digunakan dalam analisis profil mahasiswa.
+- `requirements.txt` : Daftar library Python yang diperlukan.
+- `README.md` : Dokumentasi proyek.
 
-Dataset yang digunakan bernama `dataset_mahasiswa.csv` dengan jumlah 1.000 data sintetis mahasiswa.
+## 10. Cara Menjalankan Secara Lokal
 
-Dataset memiliki empat atribut utama:
+Untuk menjalankan dashboard CASE2 pada komputer lokal, ikuti langkah berikut:
 
-| Atribut | Keterangan |
-|---|---|
-| Jurusan | Program studi mahasiswa |
-| Semester | Semester mahasiswa (1–8) |
-| IPK | Indeks Prestasi Kumulatif |
-| Usia | Usia mahasiswa dalam tahun |
-
-Data sintetis dibuat menggunakan Python dengan bantuan library Pandas dan NumPy.
-
-## Instalasi dan Menjalankan Project
-
-### 1. Clone Repository
+**1. Clone repository GitHub**
 
 ```bash
 git clone https://github.com/yenseason/CASE2-Analisis-Mahasiswa.git
 ```
 
-### 2. Masuk ke Folder Project
+**2. Masuk ke direktori proyek**
 
 ```bash
 cd CASE2-Analisis-Mahasiswa
 ```
 
-### 3. Install Dependencies
+**3. Install seluruh library yang dibutuhkan**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Jalankan Dashboard
+**4. Jalankan aplikasi Streamlit**
 
 ```bash
 streamlit run app.py
 ```
 
-Dashboard akan berjalan melalui browser menggunakan alamat lokal yang diberikan oleh Streamlit.
+**5. Buka dashboard**
 
-## Dashboard Online
+Setelah aplikasi berjalan, buka alamat lokal yang ditampilkan pada terminal, biasanya:
 
-Aplikasi dapat diakses melalui Streamlit Community Cloud:
+```text
+http://localhost:8501
+```
 
-**Link Dashboard:** [Tambahkan link Streamlit setelah deployment berhasil]
+## 11. Repository GitHub
 
-## Repository
+Source code dan seluruh file proyek CASE2 dapat diakses melalui repository berikut:
 
-GitHub: https://github.com/yenseason/CASE2-Analisis-Mahasiswa
-
----
-
-**Project Visualisasi Data – Case 2**
-
-Dashboard Analisis Profil Mahasiswa
+https://github.com/yenseason/CASE2-Analisis-Mahasiswa
